@@ -20,7 +20,7 @@ export const Navbar = () => {
                 </ul>
             </div>
             <div className="right">
-                <Button style={{ background: "#1F224D" }} text="Get $BUD" />
+                <Button onClick={() => window.open("https://presale.magicbud.gg/", "__blank")} style={{ background: "#1F224D" }} text="Get $BUD" />
             </div>
         </div>
     )
